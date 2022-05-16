@@ -8,9 +8,9 @@ public class simpleAnalysis {
 
         var handler = new SimplePersonEventHandler();
         var manager = EventsUtils.createEventsManager();
-                manager.addHandler();
+                manager.addHandler(handler);
 
-        EventsUtils.readEvents(manager, "/Users/fazafawzan/git/matsim-serengeti-park-hodenhagen/scenarios/serengeti-park-v1.0/output/output-serengeti-park-v1.0-run1;
+        EventsUtils.readEvents(manager,"/Users/fazafawzan/git/matsim-serengeti-park-hodenhagen/scenarios/serengeti-park-v1.0/output/output-serengeti-park-v1.0-run1/serengeti-park-v1.0-run1.output_events.xml.gz");
 
 
     }
